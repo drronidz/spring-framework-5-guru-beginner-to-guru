@@ -75,5 +75,3 @@ may be interchanged.
 * Rapidly gaining popularity in the **Spring Community**.
 * Thymeleaf is a natural template engine.
    * Natural meaning you can view templates in your browser.
-
-
