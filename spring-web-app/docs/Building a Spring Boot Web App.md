@@ -47,3 +47,19 @@ in relational databases.
 * Adopted by Spring Framework in version 4.2 (July 2015).
 * Adopted by Spring Boot version 1.4 (January 2016).
 
+# Spring Data Repositories
+* Provides an implementation of the Repository Pattern.
+* Concept is originally from Eric Evan's book **Domain Driven Design**.
+* A Repository has methods for retrieving domain objects should delegate to a 
+specialized Repository object such that alternative storage implementations
+may be interchanged.
+* This is important, it allows you to easily substitute the persistence layer.
+   * going from **SQL** to **NoSQL**.
+# Spring DATA JPA
+* Spring Data JPA is part of a larger family of Spring Data projects.
+* Uses Hibernate for persistence to support **RDBS** systems.
+  * Just about any major relational database.
+* You extend a Java Repository Interface.
+* Spring Data JPA provides the implementation at runtime.
+* No SQL Required!  
+
