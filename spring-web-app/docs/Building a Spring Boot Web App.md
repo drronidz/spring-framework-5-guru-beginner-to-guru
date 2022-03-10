@@ -55,11 +55,17 @@ specialized Repository object such that alternative storage implementations
 may be interchanged.
 * This is important, it allows you to easily substitute the persistence layer.
    * going from **SQL** to **NoSQL**.
+   
 # Spring DATA JPA
 * Spring Data JPA is part of a larger family of Spring Data projects.
 * Uses Hibernate for persistence to support **RDBS** systems.
   * Just about any major relational database.
 * You extend a Java Repository Interface.
 * Spring Data JPA provides the implementation at runtime.
-* No SQL Required!  
+* No SQL Required!
+
+# Spring Controllers
+* Annotate Controller Class with **@Controller**
+  * This will register the class as a Spring Bean and as a Controller in **Spring MVC**.
+* To map methods to http request paths use **@RequestedMapping**
 
