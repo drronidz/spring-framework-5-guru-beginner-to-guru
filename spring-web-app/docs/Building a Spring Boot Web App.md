@@ -69,3 +69,11 @@ may be interchanged.
   * This will register the class as a Spring Bean and as a Controller in **Spring MVC**.
 * To map methods to http request paths use **@RequestedMapping**
 
+# Introducing Thymeleaf
+* Thymeleaf is a Java template engine.
+* First stable release in July 2011.
+* Rapidly gaining popularity in the **Spring Community**.
+* Thymeleaf is a natural template engine.
+   * Natural meaning you can view templates in your browser.
+
+
