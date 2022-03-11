@@ -54,3 +54,55 @@ the correctness of the program.
 * The SOLID principles of OOP will lead you to a better quality code.
 * Your code will be more testable and easier to maintain.
 * A key theme is avoiding tight coupling in your code.
+
+## Dependency Injection for 5 year :
+When you go and get things out of the refrigerator for yourself, you can cause problems:
+* You might leave the door open, 
+* You might get something Mommy a& Daddy doesn't want you to have (a Bear for example).
+* You might even be looking for something we don't even have.
+* You might get something which has expired.
+
+What you should be doing is starting a need like:
+* I need something to drink with lunch.
+Then, we will make sure you have something when you sit down to eat.
+
+## Dependency Injection : 
+* Dependency Injection is where a needed dependency is injected by another object.
+* The class being injected has no responsibility in instantiating the object being injected.
+* Some say you avoid declaring objects using 'new'
+  * Not 100% correct ...
+
+## Types of Dependency Injection : 
+* By class properties : least preferred.
+  * Using private properties is **Evil**.
+* By Setters : Area of much debate.
+* By Constructor : Most Preferred.
+
+## Concrete Classes vs Interfaces :
+* DI can be done with **Concrete Classes** or with **Classes**
+* Generally **DI** with Concrete Classes should be avoided.
+* DI via interfaces is highly preferred:
+  * Allows runtime to decide implementation to inject.
+  * Follow Interfaces Segregation Principle of **SOLID**.
+  * Also, makes your code more testable.
+  
+## Inversion of Control 
+* Inversion of Control : IoC
+* Is a technique to allow dependencies to be injected at runtime.
+* Dependencies are not predetermined.
+
+## Inversion of Control
+One important characteristic of a framework is that the methods defined by the user to tailor
+the framework will often be called from within the framework itself, rather than from the user's
+application code. The framework often plays the role of the main program in coordinating 
+and sequencing application activity. This inversion of control gives framework the power to serve as 
+extensible skeletons. The methods supplied by the user tailor the generic algorithms defined in the
+framework for a particular application.
+
+## IoC vs Dependency Injection:
+* IoC and DI are easily confused.
+* DI refers much to the composition of your classes.
+  * ie : you compose your classes with DI in mind.
+* IoC is the runtime environment of your code.
+  * ie : Spring framework's IoC container.  
+
