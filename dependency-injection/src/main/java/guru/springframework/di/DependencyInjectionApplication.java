@@ -26,8 +26,8 @@ public class DependencyInjectionApplication {
         ApplicationContext context = SpringApplication.run(DependencyInjectionApplication.class, args);
 
         MyController myController = (MyController) context.getBean("myController");
-        myController.helloWorld();
-
+        
+        System.out.println(myController.helloWorld());
         System.out.println(colorize(context.getBean(PropertyInjectedController.class).sayHello(), BOLD(), textColorDark, backgroundColorOne));
         System.out.println(colorize(context.getBean(GetterInjectedController.class).sayHello(), BOLD(), textColorLight, backgroundColorTwo));
         System.out.println(colorize(context.getBean(ConstructorInjectedController.class).sayHello(), BOLD(), textColorDark, backgroundColorThree));
