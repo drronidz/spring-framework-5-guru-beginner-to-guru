@@ -104,5 +104,47 @@ framework for a particular application.
 * DI refers much to the composition of your classes.
   * ie : you compose your classes with DI in mind.
 * IoC is the runtime environment of your code.
-  * ie : Spring framework's IoC container.  
+  * ie : Spring framework's IoC container.
+
+# Spring Bean Life Cycle : 
+* Instantiate:
+  * 
+* Populate properties.
+* Call setBeanName of BeanNameAware.
+* Call setBeanFactory of BeanFactoryAware.
+* Call setApplicationContext of ApplicationContextAware.
+* Pre-initialization (Bean PostProcessors).
+* afterPropertiesSet of Initializing Beans.
+* Custom Init Method.
+* Post Initialization (BeanPostProcessors).
+* **Bean Ready to use**.
+* Container Shutdown.
+* Disposable Bean's destroy().
+* Call Custom Destroy Method.
+
+## Callback Interfaces:
+* Spring has two interfaces you can implement for call back events
+* InitializingBean.afterPropertiesSet()
+  * called after properties are set.
+* DisposableBean.destroy()
+  * Called during bean destruction in a shutdown.
+  
+## Life Cycle Annotations:
+* Spring has two annotations you can use to hook into the bean life cylce:
+  * **`@PostConstruct`** annotated methods will be called after the bean has been constructed,
+  but before its returned to the requesting object.
+  * **`@PreDestroy`** is called just before the bean is destroyed by the container.
+
+## Bean Post Processors:
+* Gives you a means to tap into the Spring context life cycle and interact with beans as they are
+processed.
+* Implement interface BeanPostProcessor
+  * postProcessBeforeInitialization : Called before bean initialization method.
+  * postProcessAfterInitialization : Called after bean initialization.
+  
+## Aware Interfaces
+* Spring has over 'Aware' interfaces.
+* These are used to access the Spring Framework infrastructure.
+* These are largely used within the framework.
+* Rarely used by Spring developers.  
 
