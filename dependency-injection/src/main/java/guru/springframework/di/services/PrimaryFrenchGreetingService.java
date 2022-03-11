@@ -4,7 +4,7 @@ package guru.springframework.di.services;
 PROJECT NAME : dependency-injection
 Module NAME: IntelliJ IDEA
 Author Name : @ DRRONIDZ
-DATE : 3/11/2022 9:56 PM
+DATE : 3/11/2022 11:02 PM
 */
 
 import org.springframework.context.annotation.Primary;
@@ -13,10 +13,10 @@ import org.springframework.stereotype.Service;
 
 @Service
 @Primary
-@Profile({"en", "default"})
-public class PrimaryGreetingService implements GreetingService {
+@Profile("fr")
+public class PrimaryFrenchGreetingService implements GreetingService {
     @Override
     public String sayGreeting() {
-        return "Hello from " + this.getClass().getSimpleName();
+        return "Service de salutation Primaire";
     }
 }
