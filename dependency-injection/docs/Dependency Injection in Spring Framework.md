@@ -138,13 +138,23 @@ framework for a particular application.
 ## Bean Post Processors:
 * Gives you a means to tap into the Spring context life cycle and interact with beans as they are
 processed.
-* Implement interface BeanPostProcessor
-  * postProcessBeforeInitialization : Called before bean initialization method.
-  * postProcessAfterInitialization : Called after bean initialization.
+* Implement interface `BeanPostProcessor`
+  * `postProcessBeforeInitialization` : Called before bean initialization method.
+  * `postProcessAfterInitialization` : Called after bean initialization.
   
 ## Aware Interfaces
 * Spring has over 'Aware' interfaces.
 * These are used to access the Spring Framework infrastructure.
 * These are largely used within the framework.
 * Rarely used by Spring developers.  
+
+# Interface Naming Conventions
+* Interface should be a good object name 
+  * Example Java's List interface.
+     * Implementations : `ArrayList`, `LinkedList`, `CheckedList`, `SingletonList`.
+* Don't Start with **`I`**
+  * No **`IList`** 
+  
+* When just one implementation : generally accepted to use **< Interface Name > + Impl**.
+* When more than one, name should indicate difference of Implementation.
 
