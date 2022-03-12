@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="45c89967-2691-4775-b722-0878d8a5ed27" name="Default Changelist" comment="Updating files ..." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="building-spring-boot-web-app" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="26DXM5iWHceaFogXNoqgcMP0f9M" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="SfgPetClinincApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sfg-pet-clininc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="guru.springframework.sfgpetclininc.SfgPetClinincApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45c89967-2691-4775-b722-0878d8a5ed27" name="Default Changelist" comment="" />
+      <created>1646959080002</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646959080002</updated>
+      <workItem from="1646959084349" duration="2158000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initializing project files ...">
+      <created>1646959180121</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1646959180121</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updating .gitignore file ...">
+      <created>1646959340871</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1646959340872</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initializing project files ..." />
+    <MESSAGE value="Updating .gitignore file ..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating .gitignore file ..." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="319" y="0" key="CommitChangelistDialog2" timestamp="1647084830056">
+      <screen x="0" y="0" width="1739" height="939" />
+    </state>
+    <state x="319" y="0" key="CommitChangelistDialog2/0.0.1739.939/1920.0.1522.912@0.0.1739.939" timestamp="1647084830056" />
+    <state x="462" y="204" key="Vcs.Push.Dialog.v2" timestamp="1646959341835">
+      <screen x="0" y="0" width="1739" height="939" />
+    </state>
+    <state x="462" y="204" key="Vcs.Push.Dialog.v2/0.0.1739.939/1920.0.1522.912@0.0.1739.939" timestamp="1646959341835" />
+    <state x="298" y="64" key="new project wizard" timestamp="1647085192823">
+      <screen x="0" y="0" width="1739" height="939" />
+    </state>
+    <state x="298" y="64" key="new project wizard/0.0.1739.939/1920.0.1522.912@0.0.1739.939" timestamp="1647085192823" />
+  </component>
+</project>
